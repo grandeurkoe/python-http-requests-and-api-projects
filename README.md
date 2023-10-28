@@ -19,3 +19,22 @@ This project simulates the Quizzler App. Use the requests module to get quiz dat
 For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) .
 
 ![Quizzler App](quizzler-app/quizzler-app.gif)
+
+### Day 035 - Rain Alert
+
+### Day 036 - Stock Trading News Alert
+
+### Day 037 - Habit Tracker
+
+This project tracks daily cycling using the [Pixela](https://docs.pixe.la/) API. 
+
+Features included:
+- Create a Pixela user account.
+- Create a graph.
+- Get cycling data in kilometers as user input. Post a pixel on graph.
+- Update a pixel on graph.
+- Delete a pixel on graph.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/habit-tracker?v=1) .
+
+![Habit Tracker](habit-tracker/habit-tracker.gif)
