@@ -16,6 +16,6 @@ For a live version, go [here](https://replit.com/@grandeurkoe/kanye-quotes-app?v
 
 This project simulates the Quizzler App. Use the requests module to get quiz data from the [Open Trivia Database](https://opentdb.com/api_config.php) API. Fetch the quiz data from the newly acquired JSON response and store it. Click on ✅ button if you think the correct answer is "True". Click on ❌  button if you think the correct answer is "False". Turn question card **green** if the user guessed correctly else turn **red**. On reaching the end of the quiz, print user score on the console.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/kanye-quotes-app?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) .
 
 ![Quizzler App](quizzler-app/quizzler-app.gif)
