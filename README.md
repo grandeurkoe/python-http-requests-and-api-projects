@@ -46,3 +46,13 @@ This project simulates a workout tracker. Get today's exercise entry in natural 
 For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
 
 ![Workout Tracker](workout-tracking-using-google-sheets/workout-tracking-using-google-sheets.gif)
+
+### Day 039 - Flight Deal Finder
+
+### Day 040 - Flight Club
+
+This project simulates the [Flight Club](https://jacksflightclub.com/). 
+
+For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
+
+![Flight Club](flight-club/flight-club.gif)
