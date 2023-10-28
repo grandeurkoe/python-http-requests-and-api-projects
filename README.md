@@ -41,7 +41,7 @@ For a live version, go [here](https://replit.com/@grandeurkoe/habit-tracker?v=1)
 
 ### Day 038 - Workout Tracker
 
-This project simulates a workout tracker. Get today's exercise entry in natural language form i.e., "30 minutes yoga". Use the requests module to make a POST request to the [Nutritionix v2.0](https://www.nutritionix.com/business/api) API by passing today's exercise data as API parameters. The Nutritionix API will parse today's exercise entry and calculate the calories burned. Store the newly acquired JSON response from the Nutritionix API. Furthermore, use the requests module to make a POST request to the [Sheety](https://sheety.co/) API by passing each exercise entry from the stored JSON data as API parameter. The Sheety API will push each exercise entry onto a new row in google sheet. Finally, display each exercise entry onto the console.
+This project simulates a workout tracker. Get today's exercise entry in natural language form i.e., "30 minutes yoga". Use the requests module to make a POST request to the [Nutritionix v2.0](https://www.nutritionix.com/business/api) API by passing today's exercise data as API parameters. The Nutritionix API will parse today's exercise entry and calculate the calories burned. Store the newly acquired JSON response from the Nutritionix API. Furthermore, use the requests module to make a POST request to the [Sheety](https://sheety.co/) API by passing each exercise entry from the stored JSON data as API parameter. The Sheety API will push each exercise entry onto a new row in the "workouts" sheet (part of "My Workout" spreadsheet). Finally, display each exercise entry onto the console.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
 
@@ -52,6 +52,10 @@ For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-u
 ### Day 040 - Flight Club
 
 This project simulates the [Flight Club](https://jacksflightclub.com/). 
+
+Features included:
+- Add customers - Get customer's first name, last name and email as user input. Use the requests module to make a POST request to the [Sheety](https://sheety.co/) API by passing customer's data as API parameter. The Sheety API will push customer's data onto a new row in the "users" sheet (part of "flightDeals" spreadsheet).
+- Get cheapest flight deals - Use the requests module to get the price column data from "prices" sheet (part of "flightDeals" spreadsheet).
 
 For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
 
