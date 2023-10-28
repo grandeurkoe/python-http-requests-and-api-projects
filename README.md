@@ -41,8 +41,8 @@ For a live version, go [here](https://replit.com/@grandeurkoe/habit-tracker?v=1)
 
 ### Day 038 - Workout Tracker
 
-This project simulates a workout tracker. Get today's exercise entry in natural language form i.e., "30 minutes yoga". Use the request module to make a POST request to the [Nutritionix v2.0](https://www.nutritionix.com/business/api) API. The Nutritionix API will parse today's exercise entry and calculate the calories burned.
+This project simulates a workout tracker. Get today's exercise entry in natural language form i.e., "30 minutes yoga". Use the requests module to make a POST request to the [Nutritionix v2.0](https://www.nutritionix.com/business/api) API by passing today's exercise data as API parameters. The Nutritionix API will parse today's exercise entry and calculate the calories burned. Store the newly acquired JSON response from the Nutritionix API. Furthermore, use the requests module to make a POST request to the [Sheety](https://sheety.co/) API by passing each exercise entry from the stored JSON data as API parameter. The Sheety API will push each exercise entry onto a new row in google sheet. Finally, display each exercise entry onto the console.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
 
-![Quizzler App](quizzler-app/quizzler-app.gif)
+![Workout Tracker](workout-tracking-using-google-sheets/workout-tracking-using-google-sheets.gif)
