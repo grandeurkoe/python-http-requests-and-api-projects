@@ -6,8 +6,8 @@ Each project has been built from scratch with minimal to no assistance.<br/>
 
 ### Day 033 - Kanye Quotes App
 
-This project generates the hirst painting using the turtle module. Extract colors from an image ('hirst_painting_2.jpg') using the colorgram module and use these colors to generate a hirst painting.
+This project simulates the Kanye Quotes App. Use the requests module to get kanye quotes from the [kanye.rest](https://kanye.rest/) API. Fetch the quotes from the newly acquired JSON response and store it. Fetch and display a random quote on button click. 
 
-For a live version, go [here]() .
+For a live version, go [here](https://replit.com/@grandeurkoe/kanye-quotes-app?v=1) .
 
-![Kanye Quotes App]()
+![Kanye Quotes App](kanye-quotes-app/kanye-quotes-app.gif)
