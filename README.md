@@ -38,3 +38,11 @@ Features included:
 For a live version, go [here](https://replit.com/@grandeurkoe/habit-tracker?v=1) .
 
 ![Habit Tracker](habit-tracker/habit-tracker.gif)
+
+### Day 038 - Workout Tracker
+
+This project simulates a workout tracker. Use the request module to make a POST request by passing todays 
+
+For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) .
+
+![Quizzler App](quizzler-app/quizzler-app.gif)
