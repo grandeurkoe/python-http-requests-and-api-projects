@@ -41,7 +41,7 @@ For a live version, go [here](https://replit.com/@grandeurkoe/habit-tracker?v=1)
 
 ### Day 038 - Workout Tracker
 
-This project simulates a workout tracker. Use the request module to make a POST request by passing todays 
+This project simulates a workout tracker. Get today's exercise entry in natural language form i.e., "30 minutes yoga". Use the request module to make a POST request to the [Nutritionix v2.0](https://www.nutritionix.com/business/api) API. The Nutritionix API will parse today's exercise entry and calculate the calories burned.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) .
 
