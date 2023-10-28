@@ -11,3 +11,11 @@ This project simulates the Kanye Quotes App. Use the requests module to get kany
 For a live version, go [here](https://replit.com/@grandeurkoe/kanye-quotes-app?v=1) .
 
 ![Kanye Quotes App](kanye-quotes-app/kanye-quotes-app.gif)
+
+### Day 034 - Quizzler App
+
+This project simulates the Quizzler App. Use the requests module to get kanye quotes from the [kanye.rest](https://kanye.rest/) API. Fetch the quotes from the newly acquired JSON response and store it. Fetch and display a random quote on button click. 
+
+For a live version, go [here](https://replit.com/@grandeurkoe/kanye-quotes-app?v=1) .
+
+![Quizzler App](kanye-quotes-app/kanye-quotes-app.gif)
