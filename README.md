@@ -55,7 +55,8 @@ This project simulates the [Flight Club](https://jacksflightclub.com/).
 
 Features included:
 - Add customers - Get customer's first name, last name and email as user input. Use the requests module to make a POST request to the [Sheety](https://sheety.co/) API by passing customer's data as API parameter. The Sheety API will push customer's data onto a new row in the "users" sheet (part of "flightDeals" spreadsheet).
-- Get cheapest flight deals - Use the requests module to get the price column data from "prices" sheet (part of "flightDeals" spreadsheet).
+- Get cheapest flight deals - Use the requests module to get all entries from "prices" sheet (part of "flightDeals" spreadsheet) using the Sheety API. Use the requests module to get all flights from each city in the "prices" sheet to every available destination using the [Tequila](https://tequila.kiwi.com/portal/login) API. Store the newly acquired JSON response from the Tequila API. Finally, compute the cheapest flight deal.
+- Send Email - Send an Email to every customer in the "users" sheet using the smptlib library.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
 
