@@ -58,6 +58,51 @@ Features included:
 - Get cheapest flight deals - Use the requests module to get all entries from "prices" sheet (part of "flightDeals" spreadsheet) using the Sheety API. Use the requests module to get all flights from each city in the "prices" sheet to every available destination using the [Tequila](https://tequila.kiwi.com/portal/login) API. Store the newly acquired JSON response from the Tequila API. Finally, compute the cheapest flight deal.
 - Send Email - Send an Email to every customer in the "users" sheet using the smptlib library.
 
-For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-using-google-sheets?v=1) .
+For a live version, go [here](https://replit.com/@grandeurkoe/flight-club?v=1) .
 
 ![Flight Club](flight-club/flight-club.gif)
+
+## Getting Started
+
+### Prerequisites
+
+<b>For Windows:</b>
+<br/> 
+
+Download and Install the latest version of [Python](https://www.python.org/downloads/).<br/><br/>
+Download and Install the latest version of [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/?section=windows).<br/>
+
+
+<b>For Linux:</b>
+<br/> 
+
+<b>Linux</b> comes preinstalled with Python.<br/><br/>
+To install the latest version of PyCharm Community Edition, run the following command:
+```
+sudo snap install pycharm-community --classic
+```
+
+### Installing
+
+You can install all the required packages listed in the requirements.txt file for the project at the same time: 
+
+
+<b>For Windows:</b>
+<br/> 
+```
+python -m pip install -r requirements.txt
+```
+
+## Built With
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-ffde57?style=flat-square&logo=python&logoColor=#4584b6" />
+  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-4848b6?style=flat-square&logo=pandas&logoColor=white" />
+  <img alt="Replit" src="https://img.shields.io/badge/-Replit-CD5C08?style=flat-square&logo=replit&logoColor=white" />
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-7E1DFB?style=flat-square&logo=obsidian&logoColor=white" />
+  <img alt="git" src="https://img.shields.io/badge/-Git-f34f29?style=flat-square&logo=git&logoColor=white" />
+  <img alt="Github" src="https://img.shields.io/badge/-Github-14232c?style=flat-square&logo=github&logoColor=white" />
+</p>
+
+## Authors
+
+*Initial work* - [grandeurkoe](https://github.com/grandeurkoe)
