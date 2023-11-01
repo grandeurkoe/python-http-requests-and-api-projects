@@ -30,7 +30,9 @@ For a live version, go [here](https://replit.com/@grandeurkoe/rain-alert?v=1) .
 
 ### Day 036 - Stock Trading News Alert
 
-This project simulates a Stock Trading News Alert script. Set the STOCK and COMPANY_NAME to whichever stock you want to track. Use the request module to get stock data from the [Alpha Advantage](https://www.alphavantage.co) API. Fetch and store the new acquired JSON response. Get the stock price at close time for both yesterday and day before yesterday using stored data. Calculate the stock price change in percentage between yesterday and day before yesterday. Use the [NewsAPI](https://newsapi.org/)
+This project simulates a Stock Trading News Alert script. Set the STOCK and COMPANY_NAME to whichever stock you want to track. Use the request module to get stock data from the [Alpha Advantage](https://www.alphavantage.co) API. Fetch and store the new acquired JSON response. Get the stock price at close time for both yesterday and day before yesterday using stored data. Calculate the stock price change in percentage between yesterday and day before yesterday. If the price change is greater than 5%, then get the top 3 articles that explains this stock price change using [NewsAPI](https://newsapi.org/) API. Additionally, send an email (stock trading news alert) using the smptlib library.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/stock-trading-news-alert?v=1) .
 
 ![Stock Trading News Alert](stock-trading-news-alert/stock-trading-news-alert.gif)
 
