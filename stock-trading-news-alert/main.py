@@ -1,7 +1,7 @@
 import requests
 import os
 from newsapi import NewsApiClient
-from twilio.rest import Client
+import smtplib
 import datetime as dt
 from datetime import timedelta
 
@@ -25,9 +25,9 @@ STOCK_API = os.environ["STOCK_API_KEY"]
 NEWS_API = os.environ["NEWS_API_KEY"]
 news_api = NewsApiClient(api_key=NEWS_API)
 
-# Get your own account_sid and AUTH_KEY from https://www.twilio.com/en-us
-account_sid = "AC4f183a5a3527be369675e890c6f08666"
-auth_token = os.environ['AUTH_KEY']
+
+MY_EMAIL = os.environ["MY_EMAIL"]
+MY_PASSWORD = os.environ["MY_PASSWORD"]
 
 stock_parameters = {
     "function": "TIME_SERIES_INTRADAY",
@@ -49,27 +49,22 @@ percentage_change = float(stock_data_yesterday) / float(stock_data_day_before_ye
 # Calculate the stock price change in percentage between yesterday and day before yesterday.
 if percentage_change < 1:
     price_change = round((1 - percentage_change) * 100)
-    stock_price_change = f"🔻{price_change}%"
+    stock_price_change = f"🔻{price_change}%\n"
 else:
     price_change = round((percentage_change - 1) * 100)
-    stock_price_change = f"🔺{price_change}%"
+    stock_price_change = f"🔺{price_change}%\n"
 
 # If the stock price increases or decreases by a value greater than 5%.
 # Send an SMS with the top 3 articles that explains this stock price change.
-if price_change >= 5:
+if price_change >= 0:
     articles = news_api.get_everything(q=COMPANY_NAME, language='en')
     top_3_articles = articles['articles'][0:3]
     sms_format = f"{STOCK}: {stock_price_change}\n"
     for each_article in top_3_articles:
-        sms_format += f"Headline: {each_article['title']}\nBrief: {each_article['description']}\n"
+        sms_format += f"Headline: {each_article['title']}\nBrief: {each_article['description']}\n\n"
 
-    client = Client(account_sid, auth_token)
-
-    message = client.messages \
-        .create(
-        body=sms_format,
-        from_='+13344686603',
-        to='+' + os.environ['MY_CONTACT']
-    )
-
-    print(message.status)
+    with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
+        connection.starttls()
+        connection.login(user=MY_EMAIL, password=MY_PASSWORD)
+        connection.sendmail(from_addr=MY_EMAIL, to_addrs="testing.meowya@gmail.com", msg=f"Subject:Stock trading "
+                                                                                         f"alert!\n\n{sms_format}".encode('utf-8'))
