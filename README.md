@@ -22,13 +22,15 @@ For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) 
 
 ### Day 035 - Rain Alert
 
-This project simulates a Rain Alert script. Use the requests module to get rain data from the [OpenWeather](https://openweathermap.org/) API. Fetch the hourly rain data from the newly acquired JSON response and store it. Check if it will rain based on this stored data. If it rains, then send an email (rain alert mail) using the smptlib library.
+This project simulates a Rain Alert script. Use the requests module to get data from the [OpenWeather](https://openweathermap.org/) API. Fetch the hourly rain data from the newly acquired JSON response and store it. Check if it will rain based on this stored data. If it rains, then send an email (rain alert mail) using the smptlib library.
 
 For a live version, go [here](https://replit.com/@grandeurkoe/rain-alert?v=1) .
 
 ![Rain Alert](rain-alert/rain-alert.gif)
 
 ### Day 036 - Stock Trading News Alert
+
+This project simulates a Stock Trading News Alert script. Set the STOCK and COMPANY_NAME to whichever stock you want to track. Use the request module to get stock data from the [Alpha Advantage](https://www.alphavantage.co) API. Fetch and store the new acquired JSON response. Get the stock price at close time for both yesterday and day before yesterday using stored data. Calculate the stock price change in percentage between yesterday and day before yesterday. Use the [NewsAPI](https://newsapi.org/)
 
 ![Stock Trading News Alert](stock-trading-news-alert/stock-trading-news-alert.gif)
 
