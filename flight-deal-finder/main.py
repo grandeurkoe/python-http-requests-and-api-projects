@@ -32,7 +32,7 @@ while is_looping:
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▓▓▓▒▒▓▒▒▓▒▒▒▒▒▒▒▒▓▓▒▒▒▒▒▒▒▒▓▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
     ''')
 
-    print(f"Menu\n1. Get cheapest flight deals.\n2. Send SMS.\n3. Exit")
+    print(f"Menu\n1. Get cheapest flight deals.\n2. Send Email.\n3. Exit")
     menu_select = int(input("Pick a choice: "))
 
     if menu_select == 1:
@@ -52,7 +52,7 @@ while is_looping:
         best_offer = flight_structure_data.get_best_offer(cheapest_flights)
         print(f"Cheapest Flight Deal: {best_offer}")
     elif menu_select == 2:
-        flight_notification.sms_best_offer(best_offer)
+        flight_notification.mail_best_offer(best_offer)
     elif menu_select == 3:
         is_looping = False
     else:
