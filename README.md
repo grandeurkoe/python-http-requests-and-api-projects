@@ -22,6 +22,10 @@ For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) 
 
 ### Day 035 - Rain Alert
 
+This project simulates a Rain Alert script. Use the requests module to get rain data from the [OpenWeather](https://openweathermap.org/) API. Fetch the hourly rain data from the newly acquired JSON response and store it. Check if it will rain based on this stored data. If it rains, then send an email (rain alert mail) using the smptlib library.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/rain-alert?v=1) .
+
 ![Rain Alert](rain-alert/rain-alert.gif)
 
 ### Day 036 - Stock Trading News Alert
