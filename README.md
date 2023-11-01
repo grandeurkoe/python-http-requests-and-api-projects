@@ -61,6 +61,14 @@ For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-u
 
 ### Day 039 - Flight Deal Finder
 
+This project simulates the Flight Deal Finder.
+
+Features included:
+- Get cheapest flight deals - Use the requests module to get all entries from "prices" sheet (part of "flightDeals" spreadsheet) using the Sheety API. Use the requests module to get all flights from each city in the "prices" sheet to every available destination using the [Tequila](https://tequila.kiwi.com/portal/login) API. Store the newly acquired JSON response from the Tequila API. Finally, compute the cheapest flight deal.
+- Send Email - Send an Email with the cheapest flight deal using the smptlib library.
+
+For a live version, go [here](https://replit.com/@grandeurkoe/flight-deal-finder?v=1) .
+
 ![Flight Deal Finder](flight-deal-finder/flight-deal-finder.gif)
 
 ### Day 040 - Flight Club
