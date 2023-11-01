@@ -22,6 +22,8 @@ For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) 
 
 ### Day 035 - Rain Alert
 
+![Rain Alert](rain-alert/rain-alert.gif)
+
 ### Day 036 - Stock Trading News Alert
 
 ### Day 037 - Habit Tracker
