@@ -26,6 +26,8 @@ For a live version, go [here](https://replit.com/@grandeurkoe/quizzler-app?v=1) 
 
 ### Day 036 - Stock Trading News Alert
 
+![Stock Trading News Alert](stock-trading-news-alert/stock-trading-news-alert.gif)
+
 ### Day 037 - Habit Tracker
 
 This project tracks daily cycling using the [Pixela](https://docs.pixe.la/) API. 
@@ -50,6 +52,8 @@ For a live version, go [here](https://replit.com/@grandeurkoe/workout-tracking-u
 ![Workout Tracker](workout-tracking-using-google-sheets/workout-tracking-using-google-sheets.gif)
 
 ### Day 039 - Flight Deal Finder
+
+![Flight Deal Finder](flight-deal-finder/flight-deal-finder.gif)
 
 ### Day 040 - Flight Club
 
